@@ -1,32 +1,95 @@
-  <?php
+<?php
 
-// $nomes = ["Ana", "Bruno", "Carla", "Diogo", "Eduarda","Felipe", "Gabriela", "Heitor"];
+// Exercio1
+// $i = 1;
 
-// for($i = 0; $i <= 7; $i++){
-//   echo "$nomes[$i] \n";
+// while ($i <= 500) {
+//     echo $i . "\n ";
+//     $i++;
 // }
 
-// echo "Agora com o foreach \n";
+//Exercio2
+// $i = 20;
 
-// foreach($nomes as $nome){
-//   if($nome == "Diogo"){
-//    continue;
-//   }else{
-//     echo "$nome \n";
-//   }
+// while ($i >= 1) {
+//     echo $i . "\n ";
+//     $i--;
 // }
 
-$nomeseNotas = [
-  ["Ana", 9.5, 8.3, 10.0],
-  ["Bruno", 8.6, 5.4, 3.2],
-  ["Carla", 4.5, 3.2, 6.8],
-  ["Diego", 6.1, 5.9, 8.3],
-  ["Eduarda", 8.6, 7.8, 7.9]
+//Exercicio3
 
-];
+// $num = (int)readline("Digite um número: ");
+// $i = 1;
+// while ($i <= 10) {
+//     echo "$num . $i = " . ($num * $i) . "\n";
+//     $i++;
+// }
+//
 
-for ($i = 0; $i <= 4; $i++){
-  for($j = 0; $j <= 3; $j++){
-    echo $nomeseNotas[$i][$j] . "\n";
-  }
-}
+// #exercicio4
+
+// $soma = 0;
+// $i = 1;
+// while ($i <= 100) {
+//     $soma += $i;
+//     $i++;
+// }
+// echo "Resultado: $soma";
+
+// Exercio5
+
+// $n = (int)readline("Digite um número: ");
+// $fatorial = 1;
+// $i = $n;
+// while ($i > 1) {
+//     $fatorial *= $i;
+//     $i--;
+// }
+// echo "Fatorial: $fatorial";
+
+// #EXERCÍCIO 6
+//  echo "---- Menu de Opções ----\n";
+//  echo "1 - home\n";
+//  echo "2 - cadastro\n";
+//  echo "3 - login\n";
+//  echo "4 - sair\n";
+// $opt = readline ("Digite uma opção: ");
+// while($opt != 4){
+//   echo "---- Menu de Opções ----\n";
+//   echo "1 - home\n";
+//   echo "2 - cadastro\n";
+//   echo "3 - login\n";
+//   echo "4 - sair\n";
+//   $opt = readline ("Digite uma opção: ");
+// }
+// echo "Você escolheu sair!";
+
+// #EXERCÍCIO 7
+// $soma = 0;
+// $numero = -1;
+
+// while ($numero != 0) {
+//     $numero = (float) readline("Digite um número: ");
+//     $soma += $numero;
+// }
+
+// echo "A soma total dos números é: $soma\n";
+
+
+//Exercicio8
+
+// $numeroSecreto = 500;
+// $palpite = 0;
+// while ($palpite != $numeroSecreto) {
+//     $palpite = (int)readline("Seu palpite: ");
+//     if ($palpite < $numeroSecreto) {
+//         echo "Maior!\n";
+//     } elseif ($palpite > $numeroSecreto) {
+//         echo "Menor!\n";
+//     }
+// }
+// echo "Acertou!";
+// 
+
+
+?>
